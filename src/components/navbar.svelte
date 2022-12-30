@@ -33,7 +33,8 @@
 				<a class:current={current === 4} on:click={() => (current = 4)} href="/">Time</a>
 			</li>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<li on:click={() => (isMenuOpen = false)} class="dropdown"><a on:click={() => (current = 5)} href="/">All Converters<svg fill="none" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+			
+            <li on:click={() => (isMenuOpen = false)} class="dropdown"><a on:click={() => (current = 5)} href="/">All Converters<svg fill="none" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
 				<path xmlns="http://www.w3.org/2000/svg" d="M17 10L12 16L7 10H17Z" fill="#0D0D0D"></path>
 				</svg></a></li>
 		</ul>

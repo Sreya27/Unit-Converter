@@ -1,8 +1,10 @@
 <script>
-  import Navbar from "../src/components/navbar.svelte";
+  import Navbar from "../components/navbar.svelte";
+  import Table from "../components/table.svelte";
 </script>
 
 <Navbar />
+<Table />
 
 <slot />
 
