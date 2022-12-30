@@ -12,21 +12,27 @@
 	<a href="/" class="logo"><img id="logo-img" alt="logo symbol" src="https://drive.google.com/uc?export=view&id=1mrd6vE72fmDKJeVXrrVbOzxcXz93TSmJ"/></a>
 	<nav class:open={isMenuOpen}>
 		<ul>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<li on:click={() => (isMenuOpen = false)}>
 				<a class:current={current === 0} on:click={() => (current = 0)} href="/">Length</a>
 			</li>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<li on:click={() => (isMenuOpen = false)}>
 				<a class:current={current === 1} on:click={() => (current = 1)} href="/">Temperature</a>
 			</li>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<li on:click={() => (isMenuOpen = false)}>
 				<a class:current={current === 2} on:click={() => (current = 2)} href="/">Volume</a>
 			</li>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<li on:click={() => (isMenuOpen = false)}>
 				<a class:current={current === 3} on:click={() => (current = 3)} href="/">Weight</a>
 			</li>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<li on:click={() => (isMenuOpen = false)}>
 				<a class:current={current === 4} on:click={() => (current = 4)} href="/">Time</a>
 			</li>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<li on:click={() => (isMenuOpen = false)} class="dropdown"><a on:click={() => (current = 5)} href="/">All Converters<svg fill="none" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
 				<path xmlns="http://www.w3.org/2000/svg" d="M17 10L12 16L7 10H17Z" fill="#0D0D0D"></path>
 				</svg></a></li>
