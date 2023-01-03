@@ -21,7 +21,7 @@
         result = fromValue * 1000000000;
       }
       else if(fromUnit === "meter" && toUnit === "Inches"){
-        result = fromValue ** 39.37;
+        result = fromValue * 39.37;
       }
       else if(fromUnit === "meter" && toUnit === "Yard"){
         result = fromValue * 1.0936;
